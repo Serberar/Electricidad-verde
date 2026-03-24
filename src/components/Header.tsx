@@ -39,10 +39,12 @@ export const Header: React.FC<HeaderProps> = ({ showBack = true }) => {
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    alignItems: 'center',
+    // alignItems: 'center',
     justifyContent: 'space-between',
     paddingHorizontal: spacing.sm,
-    paddingVertical: 2,
+    paddingVertical: 0,
+    height: 55,
+    overflow: 'hidden',
     backgroundColor: colors.background,
     borderBottomWidth: 1,
     borderBottomColor: colors.border,

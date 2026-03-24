@@ -3,9 +3,9 @@ import 'dotenv/config';
 
 export default {
   expo: {
-    name: "Electricidad Verde",
+    name: "Aura",
     slug: "electricidad-verde",
-    version: "1.0.0",
+    version: "2.0.0",
     orientation: "portrait",
     icon: "./assets/icon.png",
     userInterfaceStyle: "light",
@@ -16,8 +16,12 @@ export default {
       backgroundColor: "#ffffff"
     },
     ios: {
-      supportsTablet: true,
-      bundleIdentifier: "com.electricidadverde.app"
+      supportsTablet: false,
+      bundleIdentifier: "com.electricidadverde.app",
+      buildNumber: "5",
+      infoPlist: {
+        ITSAppUsesNonExemptEncryption: false
+      }
     },
     android: {
       adaptiveIcon: {
@@ -33,6 +37,9 @@ export default {
     },
     // Variables de entorno expuestas a la app
     extra: {
+      eas: {
+        projectId: "740ac063-62ad-4b30-a7e0-329a23c07667"
+      },
       // Electricidad
       ELECTRICITY_PRICE_KWH: process.env.ELECTRICITY_PRICE_KWH || "0.12",
       ELECTRICITY_DEFAULT_USER_PRICE: process.env.ELECTRICITY_DEFAULT_USER_PRICE || "0.25",

@@ -181,7 +181,7 @@ export const Simulator: React.FC<Props> = ({ navigation }) => {
               <Text style={styles.inputSuffix}>{getTariffConfig(serviceType).unit}</Text>
             </View>
             <Text style={styles.hint}>
-              Precio de Electricidad Verde (editable)
+              Precio de Aura (editable)
             </Text>
           </View>
 

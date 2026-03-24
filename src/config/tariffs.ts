@@ -1,5 +1,5 @@
 /**
- * Configuración de Tarifas - Electricidad Verde
+ * Configuración de Tarifas - Aura
  *
  * TODOS LOS PRECIOS SE LEEN DEL ARCHIVO .env
  * Para cambiar precios, edita el .env y reinicia la app.

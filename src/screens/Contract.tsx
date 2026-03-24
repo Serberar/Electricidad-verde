@@ -356,7 +356,7 @@ export const Contract: React.FC = () => {
         showsVerticalScrollIndicator={false}
       >
         <Text style={styles.title}>Mis tarifas</Text>
-        <Text style={styles.subtitle}>Tu luz y gas con Electricidad Verde</Text>
+        <Text style={styles.subtitle}>Tu luz y gas con Aura tu energía</Text>
 
         {/* Tabs de servicio */}
         <View style={styles.tabContainer}>
@@ -559,7 +559,7 @@ export const Contract: React.FC = () => {
         {/* Nota de privacidad */}
         <View style={styles.privacyNote}>
           <Text style={styles.privacyNoteText}>
-            Tus datos se almacenan solo en tu dispositivo. Electricidad Verde no guarda tu información.
+            Tus datos se almacenan solo en tu dispositivo. Aura no guarda tu información.
           </Text>
         </View>
       </ScrollView>
@@ -745,7 +745,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: typography.fontSizes.xxl,
     fontWeight: typography.fontWeights.bold,
-    color: colors.secondary,
+    color: colors.text,
     marginBottom: spacing.xs,
   },
   subtitle: {

@@ -11,9 +11,9 @@ interface LogoProps {
 }
 
 const sizes: Record<LogoSize, { width: number; height: number }> = {
-  small: { width: 180, height: 45 },
-  medium: { width: 240, height: 80 },
-  large: { width: 320, height: 107 },
+  small: { width: 100, height: 100 },
+  medium: { width: 150, height: 150 },
+  large: { width: 200, height: 200 },
 };
 
 export const Logo: React.FC<LogoProps> = ({ size = 'medium', style }) => {
@@ -34,6 +34,8 @@ const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
+    margin: 0,
+    padding: 0,
   },
   logo: {
     // Dimensiones se aplican dinámicamente

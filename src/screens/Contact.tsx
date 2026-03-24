@@ -175,7 +175,7 @@ export const Contact: React.FC<Props> = ({ navigation }) => {
             <ScrollView style={styles.modalScroll} showsVerticalScrollIndicator={true}>
               <Text style={styles.modalText}>
                 <Text style={styles.modalBold}>Responsable del tratamiento:{'\n'}</Text>
-                Electricidad Verde{'\n\n'}
+                Aura{'\n\n'}
 
                 <Text style={styles.modalBold}>Finalidad:{'\n'}</Text>
                 Los datos personales que nos proporciones a través de este formulario serán utilizados únicamente para ponernos en contacto contigo y ofrecerte información sobre nuestros servicios de luz y gas.{'\n\n'}

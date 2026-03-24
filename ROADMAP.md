@@ -1,4 +1,4 @@
-# Roadmap para Publicación - Electricidad Verde
+# Roadmap para Publicación - Aura
 
 ## Estado Actual
 - App funcional con simulador, gestión de contratos y notificaciones
@@ -14,8 +14,8 @@
 **Estado:** ❌ Pendiente
 
 Los identificadores actuales son genéricos y deben cambiarse:
-- **Android:** `com.anonymous.energiaapp` → `com.electricidadverde.app`
-- **iOS:** `com.anonymous.energiaapp` → `com.electricidadverde.app`
+- **Android:** `com.anonymous.energiaapp` → `com.aura.app`
+- **iOS:** `com.anonymous.energiaapp` → `com.aura.app`
 
 **Archivo:** `app.config.js`
 

@@ -1,29 +1,35 @@
 export const colors = {
-  // Colores principales
-  primary: '#2ECC71',      // Verde
-  primaryDark: '#27AE60',
-  primaryLight: '#58D68D',
+  // Colores principales Aura
+  primary: '#0EA5E9',      // Azul cyan (acento del logo)
+  primaryDark: '#0077CC',  // Azul profundo
+  primaryLight: '#7DD3FC', // Cyan claro
 
   // Secundarios
-  secondary: '#2C3E50',    // Azul oscuro
-  secondaryLight: '#34495E',
+  secondary: '#1A202C',    // Casi negro (textos y títulos)
+  secondaryLight: '#4A5568', // Gris oscuro
+  accent: '#00CC77',       // Verde agua Aura
 
   // Alertas
-  warning: '#F1C40F',      // Amarillo
-  danger: '#E74C3C',       // Rojo
-  success: '#2ECC71',
+  warning: '#F59E0B',
+  danger: '#EF4444',
+  success: '#00CC77',
 
   // Neutros
   white: '#FFFFFF',
-  background: '#F8F9FA',
+  background: '#F0F9FF',   // Blanco con toque cyan
   card: '#FFFFFF',
-  text: '#2C3E50',
-  textSecondary: '#7F8C8D',
-  textLight: '#BDC3C7',
-  border: '#ECF0F1',
+  text: '#0F172A',         // Azul muy oscuro
+  textSecondary: '#64748B',
+  textLight: '#CBD5E1',
+  border: '#E0F2FE',       // Borde con toque azul suave
 
   // Estados
-  disabled: '#BDC3C7',
+  disabled: '#CBD5E1',
+
+  // Degradado Aura (para uso con LinearGradient si se añade)
+  gradientStart: '#AAEE33',
+  gradientMid: '#00CC77',
+  gradientEnd: '#0055BB',
 };
 
 export const spacing = {

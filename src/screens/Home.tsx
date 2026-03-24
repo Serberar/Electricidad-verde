@@ -107,7 +107,7 @@ export const Home: React.FC<Props> = ({ navigation }) => {
         {/* Mensaje si no hay datos */}
         {!hasContracts && !simulation && (
           <Card style={styles.welcomeCard}>
-            <Text style={styles.welcomeTitle}>Bienvenido a Electricidad Verde</Text>
+            <Text style={styles.welcomeTitle}>Aura tu energía</Text>
             <Text style={styles.welcomeText}>
               Descubre cuánto puedes ahorrar con nuestras tarifas de luz y gas.
             </Text>

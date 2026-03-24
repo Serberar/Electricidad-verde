@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Electriciad Verde",
+    "name": "Aura",
     "slug": "electricidad-verde",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -13,8 +13,9 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.energiaapp"
+      "supportsTablet": false,
+      "bundleIdentifier": "com.electricidadverde.app",
+      "buildNumber": "6"
     },
     "android": {
       "adaptiveIcon": {
@@ -23,7 +24,7 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.anonymous.energiaapp"
+      "package": "com.electricidadverde.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
